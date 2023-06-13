@@ -16,10 +16,10 @@
 
 package net.media.customopenrtb25;
 
-import com.feedadx.proxy.util.validator.CheckExactlyOneWithExt;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
+import net.media.utils.validator.CheckExactlyOneWithExt;
 
 import java.util.List;
 import java.util.Map;

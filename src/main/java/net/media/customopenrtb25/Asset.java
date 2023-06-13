@@ -16,9 +16,9 @@
 
 package net.media.customopenrtb25;
 
-import com.feedadx.proxy.util.validator.CheckExactlyOneNotNull;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
+import net.media.utils.validator.CheckExactlyOneNotNull;
 
 import java.util.Map;
 import java.util.Objects;

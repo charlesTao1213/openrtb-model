@@ -17,9 +17,9 @@
 package net.media.customopenrtb25;
 
 import com.alibaba.fastjson2.annotation.JSONField;
-import com.feedadx.proxy.util.validator.CheckAtLeastOneNotNull;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
+import net.media.utils.validator.CheckAtLeastOneNotNull;
 
 import java.util.List;
 import java.util.Map;
